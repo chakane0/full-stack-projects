@@ -2,7 +2,9 @@ module.exports =
     {
         "root": true,
         "env": {
-            "browser": true
+            "browser": true,
+            "node": true,
+            "es6": true
         },
         "parser": "@typescript-eslint/parser",
         "parserOptions": {
@@ -13,9 +15,6 @@ module.exports =
         "extends": [
             "eslint:recommended",
             "@typescript-eslint/recommended",
-            "plugin:react/recommended",
-            "plugin:react/jsx-runtime",
-            "plugin:jsx-a11y/recommended",
             "prettier"
         ],
         "settings": {
